@@ -6,5 +6,5 @@ port.onDisconnect.addListener(() => {
     console.log("Disconnected");
 });
 
-port.postMessage({ text: "Hello, my_application" });
+port.postMessage({ text: "Hello, received from chrome extension" });
 
