@@ -1,4 +1,4 @@
-import model from './model/document'
+import {model} from './model/document.js'
 
 $(document).ready(() => {
     $("#sendBtn").click(() => {
